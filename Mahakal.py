@@ -47,6 +47,7 @@ print(colored("\n\nSELECT A OPTION", "yellow"))
 
 
 # user options
+
 print(colored("  /---------\","red"))
 print(colored(" { 1. Easy   }", "yellow"))
 print(colored(" { 2. Medium }", "red"))
@@ -201,8 +202,7 @@ elif user_ch == 3:
 		
 		# to save the password
 		dict = {name:passwrd}
-		
-		# file handling
+m		# file handling
 		f = open("hard.txt", "a")
 		f.write(str(dict))
 		f.write("\n")
