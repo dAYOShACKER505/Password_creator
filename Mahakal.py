@@ -201,7 +201,7 @@ elif user_ch == 3:
 		
 		# to save the password
 		dict = {name:passwrd}
-m		# file handling
+		# file handling
 		f = open("hard.txt", "a")
 		f.write(str(dict))
 		f.write("\n")
