@@ -24,7 +24,6 @@ print("\n")
 print(colored("    JOY MAHAKAL","blue")
 
 # logo
-
 print(colored("{__       {__      {_       {__     {__      {_       {__   {__        {_       {__","red"))      
 print(colored("{_ {__   {___     {_ __     {__     {__     {_ __     {__  {__        {_ __     {__","yellow"))     
 print(colored("{__ {__ { {__    {_  {__    {__     {__    {_  {__    {__ {__        {_  {__    {__","green"))     
