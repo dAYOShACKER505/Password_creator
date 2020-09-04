@@ -48,12 +48,11 @@ print(colored("\n\nSELECT A OPTION", "yellow"))
 
 # user options
 
-print(colored("  /---------\","red"))
-print(colored(" { 1. Easy   }", "yellow"))
-print(colored(" { 2. Medium }", "red"))
-print(colored(" { 3. Hard   }", "green"))
-print(colored(" { 9. Exit\n }", "yellow"))
-print(colored("_ΠΠΠΠΠΠΠΠΠΠΠΠΠ_","blue"))
+print(colored(" [ 1 ] Easy", "yellow"))
+print(colored(" [ 2 ] Medium", "yellow"))
+print(colored(" [ 3 ] Hard", "yellow"))
+print(colored(" [ 9 ] Exit\n", "yellow"))
+
 
 #user input
 user_ch = int(input(colored("Enter your choice:\nDevil_> ", "cyan")))
