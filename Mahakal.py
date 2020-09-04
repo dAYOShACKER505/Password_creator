@@ -122,7 +122,7 @@ elif user_ch == 2:
 	random.shuffle(char)
 	
 	# password length
-	plen = int(input(colored("\nEnter your password length: \nAD4rSH_> ", "blue")))
+	plen = int(input(colored("\nEnter your password length: \nDevil_> ", "blue")))
 	
 	# logic
 	passwrd = "".join(char[0:plen])
@@ -131,7 +131,7 @@ elif user_ch == 2:
 	print("Your password is: ", "".join(passwrd))
 	
 	# to save the password
-	sav = input(colored("\nDo you want to save your password (y/n) : \nAD4rSH_> ", "magenta"))
+	sav = input(colored("\nDo you want to save your password (y/n) : \nDevil_> ", "magenta"))
 	
 	
 	# if user don't save the password
@@ -177,7 +177,7 @@ elif user_ch == 3:
 	random.shuffle(char)
 	
 	# password length
-	plen = int(input(colored("\nEnter your password length: \nAD4rSH_> ", "blue")))
+	plen = int(input(colored("\nEnter your password length: \nDevil_> ", "blue")))
 	
 	# logic
 	passwrd = "".join(char[0:plen])
@@ -186,7 +186,7 @@ elif user_ch == 3:
 	print("Your password is: ", "".join(passwrd))
 	
 	# to save the password
-	sav = input(colored("\nDo you want to save your password (y/n) : \nAD4rSH_> ", "magenta"))
+	sav = input(colored("\nDo you want to save your password (y/n) : \nDevil_> ", "magenta"))
 	
 	
 	# if user don't save the password
