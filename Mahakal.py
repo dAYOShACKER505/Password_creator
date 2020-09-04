@@ -14,7 +14,7 @@ from termcolor import colored
 os.system("clear")
 
 # input
-input(colored("Press enter to continue.............", "red"))
+input(colored("Press enter to continue", "green"))
 
 # to clear the screen
 os.system("clear")
@@ -35,14 +35,14 @@ print(colored("{__       {__{__         {__{__     {__{__         {__{__     {__
                                                                                          
 print(colored("\t\t\t Created by DayosHACKER", "yellow"))
 print(colored("\t\t\t\t (DEVILAND)", "green"))
-
+print(colored("Mahakal is a strong password creator tool made by dAYOShACKER","red"))
 print("\n")
 
 
 
 print(colored("*************************************************************************", "red"))
 
-print(colored("\n\nWhich type of password do you want to generate?", "yellow"))
+print(colored("\n\nSELECT A OPTION", "yellow"))
 
 
 # user options
