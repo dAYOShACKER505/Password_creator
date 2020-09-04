@@ -1,9 +1,8 @@
 
 # Author =dAYOShACKER 
-# Aim = Create STRONG Passwords And Protect From Hackers
-# VERSION = 1.1 
+# VERSION = 1.0 
 
-# NOTE:USE THIS TOOL ONLY FOR EDUCATIONAL PURPOSE
+
 
 
 import os
@@ -22,7 +21,7 @@ os.system("clear")
 
 print("\n")
 
-print("\t\t    #JOY MAHAKAL")
+print(colored("    JOY MAHAKAL","blue")
 
 # logo
 
@@ -41,21 +40,21 @@ print("\n")
 
 
 
-print(colored("************************************************************", "red"))
+print(colored("*************************************************************************", "red"))
 
-print(colored("\n\n>>> . Which type of password do you want to generate?", "green"))
+print(colored("\n\nWhich type of password do you want to generate?", "yellow"))
 
 
 # user options
-
-print(colored("  1. Easy", "yellow"))
-print(colored("  2. Medium", "red"))
-print(colored("  3. Hard", "green"))
-print(colored("  9. Exit\n", "yellow"))
-
+print(colored("  /---------\","red"))
+print(colored(" { 1. Easy   }", "yellow"))
+print(colored(" { 2. Medium }", "red"))
+print(colored(" { 3. Hard   }", "green"))
+print(colored(" { 9. Exit\n }", "yellow"))
+print(colored("_ΠΠΠΠΠΠΠΠΠΠΠΠΠ_","blue"))
 
 #user input
-user_ch = int(input(colored("Enter your choice:\nAD4rSH_> ", "cyan")))
+user_ch = int(input(colored("Enter your choice:\nDevil_> ", "cyan")))
 
 
 
@@ -70,7 +69,7 @@ if user_ch == 1:
 	random.shuffle(char)
 	
 	# password length
-	plen = int(input(colored("\nEnter your password length: \nAD4rSH_> ", "blue")))
+	plen = int(input(colored("\nEnter your password length: \nDevil_> ", "blue")))
 	
 	# logic
 	passwrd = "".join(char[0:plen])
@@ -79,12 +78,12 @@ if user_ch == 1:
 	print("Your password is: ", "".join(passwrd))
 	
 	# to save the password
-	sav = input(colored("\nDo you want to save your password (y/n) : \nAD4rSH_> ", "magenta"))
+	sav = input(colored("\nDo you want to save your password (y/n) : \nDevil_> ", "magenta"))
 	
 	
 	# if user don't save the password
 	if sav == "n" or sav == "N":
-		print(colored("\nBye - Bye\n\n", "red"))
+		print(colored("\ngood - luck\n\n", "red"))
 	
 	# if user save password	
 	elif sav == "y" or sav == "Y":
@@ -191,13 +190,13 @@ elif user_ch == 3:
 	
 	# if user don't save the password
 	if sav == "n" or sav == "N":
-		print(colored("\nBye - Bye\n\n", "red"))
+		print(colored("\ngood - luck\n\n", "red"))
 	
 	# if user save password	
 	elif sav == "y" or sav == "Y":
 		
 		# asking for password name
-		name = input(colored("\nName your password: \nAD4rSH_> ","red"))
+		name = input(colored("\nName your password: \nDevil_> ","red"))
 		
 		# to save the password
 		dict = {name:passwrd}
@@ -219,7 +218,7 @@ elif user_ch == 3:
 
 
 elif user_ch == 9:
-	print(colored("\nSee you again!!!\n", "red"))		
+	print(colored("\nAlways Be Strong!!!\n", "red"))		
 						
 else:
 	print(colored("Please enter a valid value", "red"))
