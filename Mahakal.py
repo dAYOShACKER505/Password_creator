@@ -21,9 +21,11 @@ os.system("clear")
 
 print("\n")
 
-print(colored("    JOY MAHAKAL","blue")
+print("\t\t    #DevilanD")
 
 # logo
+
+
 print(colored("{__       {__      {_       {__     {__      {_       {__   {__        {_       {__","red"))      
 print(colored("{_ {__   {___     {_ __     {__     {__     {_ __     {__  {__        {_ __     {__","yellow"))     
 print(colored("{__ {__ { {__    {_  {__    {__     {__    {_  {__    {__ {__        {_  {__    {__","green"))     
